@@ -8,8 +8,8 @@ on:
 
 jobs:
   test:
+    if: always()
     runs-on: ubuntu-latest
-    allow-failure: true
     strategy:
       max-parallel: 4
       matrix:
