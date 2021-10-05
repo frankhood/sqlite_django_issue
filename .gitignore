@@ -1,0 +1,4 @@
+db.sqlite3
+.tox/
+sqlite_django_issue.egg-info/
+.coverage
