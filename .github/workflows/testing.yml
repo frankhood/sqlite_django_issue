@@ -9,8 +9,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    allow-failure: true
     strategy:
-      max-parallel: 1
+      max-parallel: 4
       matrix:
         python-version: [3.6.5, 3.7.9, 3.8.7, 3.9.0]
     steps:
